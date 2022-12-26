@@ -69,7 +69,7 @@ class _SignUpState extends State<SignUp> {
               ),
             ),
           ),
-          SizedBox(
+          const SizedBox(
             height: 8.0,
           ),
           Padding(
@@ -106,7 +106,7 @@ class _SignUpState extends State<SignUp> {
               ),
             ),
           ),
-          SizedBox(
+          const SizedBox(
             height: 8.0,
           ),
           Padding(
@@ -181,7 +181,7 @@ class _SignUpState extends State<SignUp> {
               ),
             ),
           ),
-          SizedBox(
+          const SizedBox(
             height: 8.0,
           ),
           Padding(
@@ -221,14 +221,14 @@ class _SignUpState extends State<SignUp> {
           const SizedBox(
             height: 20,
           ),
-          Padding(
-            padding: const EdgeInsets.only(left: 24, right: 24),
+          const Padding(
+            padding: EdgeInsets.only(left: 24, right: 24),
             child: CustomButton(
                 buttontext: 'Sign In',
                 textcolor: Colors.white,
                 buttoncolor: Appcolor.blueShade1),
           ),
-          SizedBox(
+          const SizedBox(
             height: 20,
           ),
           Padding(
@@ -259,7 +259,7 @@ class _SignUpState extends State<SignUp> {
               ],
             ),
           ),
-          SizedBox(
+          const SizedBox(
             height: 20,
           ),
           CustomloginButton(
